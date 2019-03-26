@@ -9,6 +9,7 @@ const client = new pg.Client({
     port     : settings.port,
     ssl      : settings.ssl
   });
+console.log(client)
 
 
 function search() {
